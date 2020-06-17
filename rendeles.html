@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<link rel="stylesheet" href="css\menystyle.css">
+   </head>
+<link rel="stylesheet" href="css\rendeles.css">
 
 <body>
     <h1 style="text-align: center;">Online rendelés</h1>
@@ -23,21 +23,99 @@
         <li>
             <a href="/rendeles.html">Online rendelés</a>
         </li>
+        <li>
+            <a href="urlap.html">Űrlap</a>
+        </li>
     </ul>
     <h1>Login</h1>
-    <div class="login div">
+    <div class="login-div">
         <div class="form-group">
             <label>e-mail</label>
-            <input class="form-control" type="email" name="e-mail">
+            <input class="form-control" type="e-mail" name="e-mail">
         </div>
-    </div>
-           <div class="form-group">
+        <div class="form-group">
             <label>password</label>
             <input class="form-control" type="password" name="password">
         </div>
     </div>
     <div class="form-group"></div>
-<button class="submit-btn">Login</button>
+    <button class="submit-btn">Login</button>
+
+
+
+
+
+    <h1>Regisztrációs Űrlap</h1>
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>Személyes adatok:</legend>
+                <div>
+                    <label for="name">Név *:</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="e-mail">E-mail cím: *</label>
+                    <input id="e-mail" name="e-mail" type="e-mail" required>
+                </div>
+                <div>
+                    <label for="address">Cím: *</label>
+                    <input id="address" name="address" type="text" required>
+                </div>
+                <label for="number">Telefonszám: *</label>
+                <input id="number name=" number" type="number" required>
+                <div>
+                    <label for="comment">Megjegyzés:</label>
+                    <textarea id="comment" name="comment" rows="5"></textarea>
+            </fieldset>
+    </div>
+    </form>
+    </div>
+
+    <h1>Regisztáció nélküli rendelés</h1>
+    <fieldset>
+        <legend>Termék adatai:</legend>
+        <span>Extra Feltét:</span>
+        <div>
+            <input checked id="nothing" name="extra" type="radio" value="0">
+            <label for="nothing">Nem kérek</label>
+        </div>
+        <div>
+            <input id="cheese" name="extra" type="radio" value="300">
+            <label for="cheese">Feltét 1</label>
+        </div>
+        <div>
+            <input id="double-cheese" name="extra" type="radio" value="600">
+            <label for="double-cheese">Feltét 2</label>
+        </div>
+        <div>
+            <input id="double-meat" name="extra" type="radio" value="1000">
+            <label for="double-meat">Feltét 3</label>
+        </div>
+        <div>
+            <input id="double-double" name="extra" type="radio" value="1600">
+            <label for="doble-double">Feltét 4</label>
+        </div>
+        <div>
+            <input id="valami mas" name="extra" type="radio" value="1800">
+            <label for="valami mas">Feltét 5</label>
+        </div>
+        <div>
+            <label for="sauce">Szósz</label>
+            <select name="sauce" id="sauce"></select>
+            <option value="0" selected>Szósz 1</option>
+            <option value="100" selected>Szósz 2</option>
+            </select>
+        </div>
+        <div>
+            <label for="quantity">Mennyiség</label>
+            <input id="quantity" name="quantity" type="number" min="1" max="10">
+    </fieldset>
+    <div>
+        <input type="button" value="Rendelés leadása">
+        Ár: <span>1200</span>Ft
+    </div>
+    </div>
 </body>
 
 </html>
