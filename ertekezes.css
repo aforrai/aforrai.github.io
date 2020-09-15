@@ -16,11 +16,11 @@ h2 {
 h3 {
     text-align: justify;
     font-family: sans-serif;
-    margin: 20px 300px 20px 300px;
+    margin: 100px 50px 100px 50px;
 }
 p {
     font-family: sans-serif;
-    margin: 20px 300px 20px 300px;
+    margin: 20px 50px 20px 50px;
     text-align: center;
     font-size: 25px;
 }
@@ -33,9 +33,9 @@ p {
 img {
    border-style: double;
    width: 600px;
-   margin-left: 380px;
+   margin-left: 10px;
    background-color: seagreen;
-  }
+    }
   .kedves {
       border-style: double;
       background-color: springgreen;
