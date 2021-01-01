@@ -1,0 +1,17 @@
+html {
+    background-color:rgb(243, 243, 10)
+}
+h1 {
+    text-align: center;
+    margin: 100px 50px 100px 50px;
+    color: seagreen;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: seagreen;
+    margin: 20px 50px 20px 50px;
+}

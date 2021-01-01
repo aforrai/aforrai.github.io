@@ -1,0 +1,26 @@
+html {
+    background-color: violet;
+    }
+    h1 {
+    text-align: center;
+    margin: 40px 50px 40px 50px;
+    font-family: sans-serif;
+    }
+    h2 {
+    text-align: center;
+    margin: 30px 50px 30px 50px;
+    font-family: sans-serif;
+    }
+    h3 {
+    text-align: center;
+    margin: 30px 220px 30px 50px;
+    font-family: sans-serif;
+    }
+    img {
+        border-style: double;
+        width: 300px;
+        margin-left: 530px;
+        margin-top: 0px;
+        background-color: seagreen;
+        box-shadow: 15px 15px 30px seagreen
+         }
