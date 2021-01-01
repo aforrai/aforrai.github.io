@@ -11,7 +11,26 @@ html {
     margin: 50px 50px 50px 50px;
     font-family: sans-serif;
     }
+<<<<<<< HEAD
         .cim {
+=======
+<<<<<<< HEAD
+        .cim {
+=======
+    h3 {
+    text-align: center;
+    margin: 50px 300px 50px 300px;
+    font-family: sans-serif;
+    border-style: dotted;
+    padding: 20px 20px 20px 20px;
+    }
+    h4 {
+        text-align: center;
+        margin-left: 350px;
+    }
+    .cim {
+>>>>>>> 8816277d9891eb0bf0f038177f506c30345861e4
+>>>>>>> f15a52a3c3351a59efa7d1719c66dbbf3fa3d995
        text-align: center;
        font-family: sans-serif;
        font-size: 30px;
