@@ -1,0 +1,18 @@
+html {
+background-color: violet;
+}
+h1 {
+text-align: center;
+margin: 100px 50px 100px 50px;
+font-family: sans-serif;
+}
+h2 {
+text-align: left;
+margin: 100px 50px 100px 50px;
+font-family: sans-serif;
+}
+h3 {
+text-align: justify;
+margin: 100px 50px 100px 50px;
+font-family: sans-serif;
+}
