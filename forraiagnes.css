@@ -1,0 +1,20 @@
+html {
+    background-color: violet;
+    }
+    h1 {
+    text-align: center;
+    margin: 40px 50px 40px 50px;
+    font-family: sans-serif;
+    }
+    h2 {
+    text-align: center;
+    margin: 30px 50px 30px 50px;
+    font-family: sans-serif;
+    }
+    img {
+    border-style: double;
+    width: 350px;
+  background-color: seagreen;
+    box-shadow: 15px 15px 30px 15px
+    }
+     
